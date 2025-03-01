@@ -39,8 +39,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/HP/source/repos/C11",
-      "program": "c:/Users/HP/source/repos/C11/build/Debug/outDebug",
+      "cwd": "c:/Users/HP/source/repos/C11/Practise",
+      "program": "c:/Users/HP/source/repos/C11/Practise/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
