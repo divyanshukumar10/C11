@@ -22,8 +22,27 @@ int main()
         }
     }
     
-     for(int i=0;i<n;i++)
+    int count =0;
+    
+    int res[n];
+    
+    
+    for(int i=0;i<n;i++)
     {
-        cout<<arr[i]<<" ";
+        if(arr[i]!=0)
+        {
+            res[count]=arr[i];
+            count++;
+        }
+    }
+    
+    for(int i=count;i<n;i++)
+    {
+        res[i]=0;
+    }
+    
+    for(int i=0;i<n;i++)
+    {
+        cout<<res[i]<<" ";
     }
 }
